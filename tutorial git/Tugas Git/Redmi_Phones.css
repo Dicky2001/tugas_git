@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    position: fixed;
+    top: 0;
+    background-color: orange;
+    border-bottom: 2px solid black;
+    line-height: 70px;
+    width: 100%;
+}
+nav li{
+    text-decoration: none;
+    float: left;
+    list-style-type: none;
+    margin-left: 250px;
+    margin-right: -150px;
+}
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+nav li a:hover{
+    cursor: pointer;
+    color: blue;
+    
+}
+h1,h3{
+    text-align: center;
+    padding-top: 100px;
+    color: black;
+    font-size: 30px;
+     margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+img{
+    width: 500px;
+}
+p{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 20px;
+}
